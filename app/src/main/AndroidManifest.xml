@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrderActivity"></activity>
+        <activity android:name=".OrderActivity"
+                  android:label="Crear Orden"
+                  android:parentActivityName=".TopLevelActivity">
+            <meta-data
+                  android:name="android.support.PARENT_ACTIVITY"
+                  android:value=".TopLevelActivity"/>
+        </activity>
     </application>
 
 </manifest>
