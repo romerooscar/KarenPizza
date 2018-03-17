@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Pizza</string>
+    <string name="app_name">Karens Pizza</string>
+    <string name="optMessage">Send Message</string>
     <string name="createOrder">Crear Orden</string>
 </resources>
